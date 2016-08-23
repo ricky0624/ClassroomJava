@@ -8,7 +8,7 @@ public class Poker
 	{
 //		long begin=System.currentTimeMillis();
 
-		//洗牌
+		//洗牌			
 		int[] poker=new int[52]; // 0,0,...0
 		for(int i=0;i<poker.length;i++)
 		{
