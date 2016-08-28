@@ -1,13 +1,13 @@
 package tw.org.iii.classroom;
 
-public class Bike
+class Bike2
 {
 	//Field屬性
 	private double speed;
 	
 	//Constructor
 	//名稱永遠跟類別名稱大小寫一模一樣
-	protected Bike()
+	Bike2()
 	{
 		speed=1;
 		System.out.println("Bike():"+speed);
@@ -15,7 +15,7 @@ public class Bike
 	
 	
 	//Method方法
-	protected void upSpeed()
+	void upSpeed()
 	{
 		speed = speed<1?1:speed*1.2;
 	}
