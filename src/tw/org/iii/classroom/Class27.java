@@ -54,7 +54,7 @@ public class Class27 extends JFrame implements ActionListener
 		System.out.println("InnerListener");	
 	}
 		
-		
+				
 	public static void main(String[] args)
 	{
 		new Class27();
