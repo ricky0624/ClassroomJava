@@ -28,10 +28,12 @@ public class Class47
 
 	}
 }
-
+// 加了transient,該屬性不會被序列化
 class Student implements Serializable
 {
-	int ch,eng,math;
+	int ch;
+	transient int eng;
+	int math;
 	String name;
 	PM pm;
 	Student(PM pm,String name,int ch,int eng,int math)
