@@ -11,8 +11,8 @@ public class Class42
 		File f1 = new File("dir1/ricky03.txt");
 		try 
 		{
-			FileOutputStream fout = new FileOutputStream(f1);
-			fout.write("Hello,Ricky".getBytes());
+			FileOutputStream fout = new FileOutputStream(f1,true);
+			fout.write("Hello,Ricky2\n".getBytes());
 			fout.flush();
 			fout.close();
 			System.out.println("OK");

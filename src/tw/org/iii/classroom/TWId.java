@@ -1,5 +1,6 @@
 package tw.org.iii.classroom;
 
+// 20160903測試一下
 // 身分證 => 地區、性別、驗證
 public class TWId
 {
